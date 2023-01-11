@@ -1,6 +1,7 @@
 on:
+  push:
   schedule:
-    - cron: '*/6 7-23 * * *'
+    - cron: '*/6 2-18 * * *'
 jobs:
   test_schedule:
     runs-on: ubuntu-latest
