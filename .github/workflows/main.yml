@@ -9,4 +9,4 @@ jobs:
       - name: Echo the description
         run: echo "Running the cron"
       - name: Making a call
-        run: curl https://habituate-me-backend.onrender.com/authentication
+        run: curl http https://umf.onrender.com/v1/healthcheck
